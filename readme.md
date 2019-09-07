@@ -1,4 +1,4 @@
-# luizcarlosfaria/mssql-server-linux
+# freise/mssql-server-linux
 
 ## Same **microsoft/mssql-server-linux** docker image parameterizable like official **MySQL** and **Postgres** docker images
 
@@ -14,13 +14,8 @@ docker run \
 -e 'MSSQL_USER=new_username' \
 -e 'MSSQL_PASSWORD=new_password' \
 -p 1433:1433 \
-luizcarlosfaria/mssql-server-linux:latest
+freise/mssql-server-linux:latest
 ```
-
-*Dockerfile* | https://github.com/docker-gallery/mssql-server-linux
-
-*PT-BR Project Home* | https://gago.io/blog/projetos/mssql-server-linux/
-
 
 ## Environment Variables
 
